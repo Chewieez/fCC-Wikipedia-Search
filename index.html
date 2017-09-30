@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>fCC Wikipedia Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+
+</head>
+
+<body>
+  <div class="main-content">
+    <div class="flex-container">
+      <div id="random-wiki" class="flex-item">
+        <p><a href="https://en.wikipedia.org/wiki/Special:Random" class="circle-border" target="_blank"> Click to load a random wikipedia article</a></p>
+      </div>
+
+      <div id="wiki-search" class="flex-item">
+        <form id="user-search">
+          <input type="text" id="search-query" name="search-query" placeholder="Type Search Terms Here" autocomplete="off" size="28" required />
+          <input type="submit" id="search-submit" class="button" />
+        </form>
+      </div>
+
+      <div id="search-results" class="flex-item flex-results">
+      </div>
+
+
+    </div>
+    <!--End of Container -->
+
+
+
+  </div>
+  <footer class="footer">
+    <p> code by: <a href="https://www.freecodecamp.com/chewieez" target="_blank">Greg Lawrence</a></p>
+  </footer>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="/app.js"></script>
+
+</body>
+
+</html>

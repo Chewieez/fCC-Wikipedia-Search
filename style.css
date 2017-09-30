@@ -1,0 +1,151 @@
+/*--Need to organize this into sections--  */
+
+body {
+  background-color: #265a75;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  min-height: calc(100vh - 75px);
+  margin: 40px 5px 0px;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: -webkit- flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  /*   border: 5px solid red;  /* For debugging flexbox*/
+}
+
+.flex-item {
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 10px;
+  /*  border: 5px solid blue; /* for debugging flexbox */
+}
+
+.flex-results {
+  max-width: 600px;
+  flex-basis: auto;
+  /* default value */
+  flex-grow: 1;
+}
+
+*/ .error-msg {
+  text-align: center;
+}
+
+#search-query {
+  border-radius: 6px;
+  /*   padding: 2px 0px 2px 4px;
+  border: none; */
+}
+
+input {
+  padding: 3px 2px 3px 4px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+#search-submit {
+  background-color: #dc700e;
+  padding: 3px;
+  border-radius: 6px;
+  border: none;
+  /*   border: 1px solid #535f6b; */
+  color: white;
+  /*   box-shadow: 1px 1px 1px #d3d3d3; */
+}
+
+.results {
+  background: white;
+  color: grey;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.ind-results0,
+.ind-results1,
+.ind-results2,
+.ind-results3,
+.ind-results4,
+.ind-results5,
+.ind-results6,
+.ind-results7,
+.ind-results8,
+.ind-results9 {
+  -webkit-transition: border-left .4s ease-out;
+  transition: border-left .4s ease-out;
+}
+
+.ind-results0:hover,
+.ind-results1:hover,
+.ind-results2:hover,
+.ind-results3:hover,
+.ind-results4:hover,
+.ind-results5:hover,
+.ind-results6:hover,
+.ind-results7:hover,
+.ind-results8:hover,
+.ind-results9:hover {
+  border-left: 5px solid #dc700e;
+  border-right: none;
+}
+
+#user-search {
+  color: grey;
+}
+
+.circle-border {
+  color: white;
+  border-radius: 7px;
+  border: 2px solid white;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.circle-border:hover {
+  background: white;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  margin: 5px 0px 5px 5px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: grey;
+}
+
